@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Login from "./Login.jsx";
+import MainRouter from "./components/MainRouter.js";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Login />
-  </React.StrictMode>,
-  document.getElementById("root")
+     <React.StrictMode>
+          <MainRouter />
+     </React.StrictMode>,
+     document.getElementById("root")
 );
